@@ -2,6 +2,8 @@ import { Component } from 'react';
 import AppBanner from '../appBanner/AppBanner';
 import AppFooter from '../appFooter/AppFooter';
 import AppNavigation from '../appNavigation/AppNavigation';
+import SearchPanel from '../searchPanel/SearchPanel';
+import FilterPanel from '../filterPanel/FilterPanel';
 
 import aboutPhoto from '../../resources/img/beans-photo.png';
 import darkBeans from '../../resources/icons/coffee-three-beans-dark.svg';
@@ -36,7 +38,13 @@ class AppAbout extends Component {
             </div>
 
             <div className="divider"></div>
-            {/* <AppFooter /> */}
+
+            <div className="coffee-about__search">
+               <SearchPanel />
+               <FilterPanel />
+            </div>
+
+            <AppFooter />
          </section>
       );
    }
