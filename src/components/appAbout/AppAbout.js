@@ -4,6 +4,7 @@ import AppFooter from '../appFooter/AppFooter';
 import AppNavigation from '../appNavigation/AppNavigation';
 import SearchPanel from '../searchPanel/SearchPanel';
 import FilterPanel from '../filterPanel/FilterPanel';
+import CoffeeList from '../coffeeList/CoffeeList';
 
 import aboutPhoto from '../../resources/img/beans-photo.png';
 import darkBeans from '../../resources/icons/coffee-three-beans-dark.svg';
@@ -12,6 +13,15 @@ import './appAbout.scss';
 
 class AppAbout extends Component {
    render() {
+      const coffeeItems = [
+         { country: 'Brazil', price: '6.99$' },
+         { country: 'Kenya', price: '6.99$' },
+         { country: 'Columbia', price: '6.99$' },
+         { country: 'Brazil', price: '6.99$' },
+         { country: 'Brazil', price: '6.99$' },
+         { country: 'Brazil', price: '6.99$' },
+      ];
+
       return (
          <section className="coffee-about">
             <AppNavigation />
@@ -42,6 +52,10 @@ class AppAbout extends Component {
             <div className="coffee-about__search">
                <SearchPanel />
                <FilterPanel />
+            </div>
+
+            <div className="coffee-about__supplies">
+               <CoffeeList items={coffeeItems} />
             </div>
 
             <AppFooter />

@@ -5,8 +5,8 @@ const App = () => {
    return (
       <div className="app">
          <main>
-            {/* <AppPerfomance /> */}
-            <AppAbout />
+            <AppPerfomance />
+            {/* <AppAbout /> */}
          </main>
       </div>
    );
