@@ -1,0 +1,24 @@
+.navigation {
+   &__list {
+      width: 355px;
+      height: 40px;
+      position: relative;
+      top: 52px;
+      left: 180px;
+      display: flex;
+      justify-content: space-between;
+      z-index: 5;
+   }
+
+   &__item {
+      font-weight: 400;
+      font-size: 12px;
+      color: #fff;
+   }
+
+   &__logo {
+      position: absolute;
+      top: 30px;
+      left: 149px;
+   }
+}
