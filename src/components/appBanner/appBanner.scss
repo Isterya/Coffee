@@ -1,0 +1,15 @@
+.coffee-banner {
+   background: url('../../resources/img/our-coffee-bg.jpg') center/cover no-repeat;
+   height: 260px;
+
+   &__wrapper {
+      padding: 130px 609px 84px 609px;
+   }
+
+   &__title {
+      font-weight: 700;
+      font-size: 40px;
+      color: #fff;
+      text-align: center;
+   }
+}

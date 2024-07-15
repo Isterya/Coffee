@@ -28,3 +28,11 @@ p {
    margin: 0;
    padding: 0;
 }
+
+.divider {
+   border: 1px solid #000;
+   width: 240px;
+   height: 0px;
+   display: block;
+   margin: 0 auto;
+}
