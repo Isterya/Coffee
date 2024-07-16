@@ -1,5 +1,7 @@
-import coffeeBeans from '../../resources/icons/coffee-two-beans-light.svg';
 import { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+
+import coffeeBeans from '../../resources/icons/coffee-two-beans-light.svg';
 
 import './appNavigation.scss';
 
@@ -9,9 +11,17 @@ class AppNavigation extends Component {
          <nav>
             <img className="navigation__logo" src={coffeeBeans} alt="coffeeBeans" />
             <ul className="navigation__list">
-               <li className="navigation__item">Coffee house</li>
-               <li className="navigation__item">Our coffee</li>
-               <li className="navigation__item">For your pleasure</li>
+               <li className="navigation__item">
+                  <NavLink end to="/">
+                     Coffee house
+                  </NavLink>
+               </li>
+               <li className="navigation__item">
+                  <NavLink to="/about-us">Our coffee</NavLink>
+               </li>
+               <li className="navigation__item">
+                  <NavLink to="/pleasure">For your pleasure</NavLink>
+               </li>
             </ul>
          </nav>
       );

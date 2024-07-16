@@ -1,16 +1,16 @@
 import { Component } from 'react';
-import AppNavigation from '../appNavigation/AppNavigation';
-import AppBanner from '../appBanner/AppBanner';
-import InfoBlock from '../infoBlock/InfoBlock';
-import CoffeeList from '../coffeeList/CoffeeList';
-import AppFooter from '../appFooter/AppFooter';
+import AppNavigation from '../../appNavigation/AppNavigation';
+import AppBanner from '../../appBanner/AppBanner';
+import InfoBlock from '../../infoBlock/InfoBlock';
+import CoffeeList from '../../coffeeList/CoffeeList';
+import AppFooter from '../../appFooter/AppFooter';
 
-import pleasureBg from '../../resources/img/pleasure-bg.jpg';
-import pleasurePhoto from '../../resources/img/goal-photo.png';
+import pleasureBg from '../../../resources/img/pleasure-bg.jpg';
+import pleasurePhoto from '../../../resources/img/goal-photo.png';
 
-import './coffeePleasure.scss';
+import './pleasurePage.scss';
 
-class CoffeeGoal extends Component {
+class PleasurePage extends Component {
    render() {
       const coffeeItems = [
          { country: 'Brazil', price: '6.99$' },
@@ -53,4 +53,4 @@ class CoffeeGoal extends Component {
    }
 }
 
-export default CoffeeGoal;
+export default PleasurePage;

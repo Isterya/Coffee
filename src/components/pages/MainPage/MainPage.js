@@ -1,17 +1,17 @@
 import { Component } from 'react';
-import AppNavigation from '../appNavigation/AppNavigation';
-import AppFooter from '../appFooter/AppFooter';
+import AppNavigation from '../../appNavigation/AppNavigation';
+import AppFooter from '../../appFooter/AppFooter';
 
-import beans from '../../resources/icons/coffee-three-beans-light.svg';
-import darkBeans from '../../resources/icons/coffee-three-beans-dark.svg';
+import beans from '../../../resources/icons/coffee-three-beans-light.svg';
+import darkBeans from '../../../resources/icons/coffee-three-beans-dark.svg';
 
-import solimo from '../../resources/img/supplies-mini/solimo-coffee.png';
-import presto from '../../resources/img/supplies-mini/presto-coffee.png';
-import aromistico from '../../resources/img/supplies-mini/aromistico-coffee.png';
+import solimo from '../../../resources/img/supplies-mini/solimo-coffee.png';
+import presto from '../../../resources/img/supplies-mini/presto-coffee.png';
+import aromistico from '../../../resources/img/supplies-mini/aromistico-coffee.png';
 
-import './appPerfomance.scss';
+import './mainPage.scss';
 
-class AppPerfomance extends Component {
+class MainPage extends Component {
    render() {
       return (
          <section className="coffee-perfomance">
@@ -74,4 +74,4 @@ class AppPerfomance extends Component {
    }
 }
 
-export default AppPerfomance;
+export default MainPage;

@@ -1,14 +1,14 @@
 import { Component } from 'react';
-import AppNavigation from '../appNavigation/AppNavigation';
-import AppBanner from '../appBanner/AppBanner';
-import AppFooter from '../appFooter/AppFooter';
+import AppNavigation from '../../appNavigation/AppNavigation';
+import AppBanner from '../../appBanner/AppBanner';
+import AppFooter from '../../appFooter/AppFooter';
 
-import darkBeans from '../../resources/icons/coffee-three-beans-dark.svg';
-import coffee from '../../resources/img/supplies/aromistico.png';
-import aboutBg from '../../resources/img/our-coffee-bg.jpg';
-import './coffeeInfo.scss';
+import darkBeans from '../../../resources/icons/coffee-three-beans-dark.svg';
+import coffee from '../../../resources/img/supplies/aromistico.png';
+import aboutBg from '../../../resources/img/our-coffee-bg.jpg';
+import './singleCoffeePage.scss';
 
-class CoffeeInfo extends Component {
+class SingleCoffeePage extends Component {
    render() {
       return (
          <div className="coffee-info">
@@ -18,7 +18,7 @@ class CoffeeInfo extends Component {
             <div className="coffee-info__wrapper">
                <img src={coffee} alt="coffee-info" className="coffee-info__img" />
                <div className="coffee-info__text">
-                  <div className="coffee-info__header">About our beans</div>
+                  <div className="coffee-info__header">About it</div>
                   <div className="coffee-info__divider">
                      <img src={darkBeans} alt="coffee-divider" />
                   </div>
@@ -45,4 +45,4 @@ class CoffeeInfo extends Component {
    }
 }
 
-export default CoffeeInfo;
+export default SingleCoffeePage;
