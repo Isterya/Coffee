@@ -33,15 +33,12 @@ class AppAbout extends Component {
                header="About our beans"
                description={
                   <>
-                     Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                     Experience the richness of our premium coffee beans, sourced from top coffee regions.
                      <br />
                      <br />
-                     Afraid at highly months do things on at. Situation recommend objection do intention so questions.
+                     Handpicked and processed with care, each bean guarantees exceptional flavor and aroma.
                      <br />
-                     As greatly removed calling pleased improve an. Last ask him cold feel
-                     <br />
-                     met spot shy want. Children me laughing we prospect answered followed. At it went is song that held
-                     help face.
+                     Discover the bold taste and unique character of our expertly crafted coffee beans.
                   </>
                }
             />
