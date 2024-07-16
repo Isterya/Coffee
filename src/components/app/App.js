@@ -7,8 +7,8 @@ const App = () => {
       <div className="app">
          <main>
             {/* <AppPerfomance /> */}
-            {/* <AppAbout /> */}
-            <CoffeeInfo />
+            <AppAbout />
+            {/* <CoffeeInfo /> */}
          </main>
       </div>
    );
