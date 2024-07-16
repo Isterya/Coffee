@@ -4,32 +4,39 @@
       display: flex;
       justify-content: center;
    }
+
    &__img {
       margin-right: 79px;
    }
+
    &__text {
       text-align: center;
       width: 346px;
    }
+
    &__header {
       font-weight: 400;
       font-size: 24px;
       color: #000;
    }
+
    &__divider {
       margin: 20px 0 26px 0;
    }
+
    &__descr {
       font-weight: 400;
       font-size: 14px;
       color: #000;
    }
+
    &__search {
       display: flex;
       margin: 60px 0 60px 0;
       justify-content: center;
       align-items: center;
    }
+
    &__supplies {
       display: flex;
       justify-content: center;

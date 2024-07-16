@@ -6,6 +6,7 @@ import SearchPanel from '../searchPanel/SearchPanel';
 import FilterPanel from '../filterPanel/FilterPanel';
 import CoffeeList from '../coffeeList/CoffeeList';
 
+import aboutBg from '../../resources/img/our-coffee-bg.jpg';
 import aboutPhoto from '../../resources/img/beans-photo.png';
 import darkBeans from '../../resources/icons/coffee-three-beans-dark.svg';
 
@@ -25,7 +26,7 @@ class AppAbout extends Component {
       return (
          <section className="coffee-about">
             <AppNavigation />
-            <AppBanner />
+            <AppBanner backgroundImage={aboutBg} title="Our coffee" />
 
             <div className="coffee-about__wrapper">
                <img src={aboutPhoto} alt="about-our-beans" className="coffee-about__img" />
