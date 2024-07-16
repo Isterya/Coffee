@@ -1,4 +1,6 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import AppNavigation from '../../appNavigation/AppNavigation';
 import AppFooter from '../../appFooter/AppFooter';
 
@@ -24,7 +26,9 @@ class MainPage extends Component {
                <div className="coffee-perfomance__subheader">We make every day full of energy and taste</div>
                <div className="coffee-perfomance__subheader mt20px">Want to try our beans?</div>
 
-               <button className="btn-more">More</button>
+               <button className="btn-more">
+                  <Link to="/about-us">More</Link>
+               </button>
             </div>
 
             <div className="coffee-perfomance__about">

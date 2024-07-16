@@ -51,6 +51,15 @@
          border-color: #fff;
          color: #000;
          transform: scale(1.05);
+         a {
+            color: #000;
+         }
+      }
+
+      a {
+         color: #fff;
+         transition: all 0.3s;
+         text-decoration: none;
       }
    }
 

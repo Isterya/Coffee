@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './coffeeList.scss';
 
@@ -11,12 +12,12 @@ class CoffeeList extends Component {
       return (
          <div className="coffee-list">
             {items.map((item, index) => (
-               <div key={index} className="coffee-list__item">
+               <Link key={index} to={`/coffee/${index}`} className="coffee-list__item">
                   <img src={aromistico} alt={item.country} className="coffee-list__img" />
                   <div className="coffee-list__header">AROMISTICO Coffee 1 kg</div>
                   <div className="coffee-list__country">{item.country}</div>
                   <div className="coffee-list__price">{item.price}</div>
-               </div>
+               </Link>
             ))}
          </div>
       );
