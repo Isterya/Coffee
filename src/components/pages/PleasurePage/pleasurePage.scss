@@ -1,5 +1,7 @@
 .coffee-pleasure {
    &__supplies {
       padding: 60px 0 30px 0;
+      display: flex;
+      justify-content: center;
    }
 }

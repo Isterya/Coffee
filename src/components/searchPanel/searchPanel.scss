@@ -1,6 +1,6 @@
 .coffee-search {
    margin-right: 83px;
-   width: 282px;
+   max-width: 282px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -21,5 +21,11 @@
       font-size: 12px;
       text-align: center;
       padding: 8px;
+   }
+}
+
+@media (max-width: 768px) {
+   .coffee-search {
+      margin-right: 0;
    }
 }
