@@ -51,3 +51,28 @@
       left: 149px;
    }
 }
+
+@media (max-width: 1200px) {
+   .navigation {
+      &__list {
+         width: 305px;
+         left: 115px;
+      }
+
+      &__logo {
+         left: 80px;
+      }
+   }
+}
+
+@media (max-width: 576px) {
+   .navigation {
+      &__list {
+         display: none;
+      }
+
+      &__logo {
+         display: none;
+      }
+   }
+}
